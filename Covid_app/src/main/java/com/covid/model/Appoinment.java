@@ -18,7 +18,14 @@ import javax.validation.constraints.Pattern;
 import com.covid.enums.Slot;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Appoinment {
 
 	@Id

@@ -2,6 +2,8 @@ package com.covid.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AppoinmentDAO extends JpaRepository<Appendable, Long> {
+import com.covid.model.Appoinment;
+
+public interface AppoinmentDAO extends JpaRepository<Appoinment, Long> {
 
 }
