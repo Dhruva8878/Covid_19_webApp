@@ -63,9 +63,9 @@
 
 ## API Root Endpoint
 
-`https://localhost:8080/`
+`https://localhost:8888/`
 
-`http://localhost:8080/swagger-ui/`
+`http://localhost:8888/swagger-ui/`
 
 
 ## API Module Endpoints
@@ -78,14 +78,14 @@
 
 ### Sample API Response for Admin Login
 
-`POST   localhost:8080/login/adminlogin`
+`POST   localhost:8888/login/adminlogin`
 
 * Request Body
 
 ```
     {
-        "mobileNo": "9065946031",
-        "password": "Clickme@007"
+        "mobileNo": "8894181609",
+        "password": "shoto2000"
     }
 ```
 
@@ -94,11 +94,7 @@
 ```
    CurrentAdminSession(id=11, adminId=10, uuid=ZaVLaK, localDateTime=2022-08-17T11:13:42.772910500)
    
-```
-
-## Video Explainer of flow control
- <a href="https://drive.google.com/file/d/1ReDNdgIxdSNcn7WsV2ysIHeXEnkgZErw/view?usp=sharing">**Video Drive Link** </a>
- 
+``` 
  
 ### E-R Diagram Of Covid-19 Application
 ---
@@ -110,15 +106,23 @@
 
 ---
 
-<img src="https://github.com/shivamgarg796/Spring-work/blob/master/Images/Swagger-ui.jpeg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/shoto2000/WEB-18/blob/master/images/swagger.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ---
 
-### Login Controller
+### Signup Controller
 
 ---
 
-<img src="https://github.com/shivamgarg796/Spring-work/blob/master/Images/Login.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/shoto2000/WEB-18/blob/master/images/signup%20Controller.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+
+---
+
+### Login Logout Controller
+
+---
+
+<img src="https://github.com/shoto2000/WEB-18/blob/master/images/login%20logout%20controller.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ---
 
@@ -126,7 +130,7 @@
 
 ---
 
-<img src="https://github.com/shivamgarg796/Spring-work/blob/master/Images/Admin-Controller.jpeg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/shoto2000/WEB-18/blob/master/images/admin%20controller.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ---
 
@@ -134,15 +138,15 @@
 
 ---
 
-<img src="https://github.com/shivamgarg796/Spring-work/blob/master/Images/User.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/shoto2000/WEB-18/blob/master/images/user%20controller.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ---
 
-### Model Controller
+### Schemas
 
 ---
 
-<img src="https://github.com/shivamgarg796/Spring-work/blob/master/Images/mODELS.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/shoto2000/WEB-18/blob/master/images/schemas.png?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ---
 
