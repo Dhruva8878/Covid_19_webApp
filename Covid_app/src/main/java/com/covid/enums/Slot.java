@@ -72,8 +72,6 @@ public enum Slot {
 	    }		
 	};
 	
-//	default method
-	
 	public String timeslot() {
 		return null;
 	}
