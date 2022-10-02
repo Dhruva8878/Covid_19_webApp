@@ -102,7 +102,7 @@
  
 ### E-R Diagram Of Covid-19 Application
 ---
-<img src="https://github.com/Dhruva8878/Java_project/blob/main/Covid-19%20App%20Diagram.png">
+<div id="2F35A141C80C27E83741FB57B6789FAC1BF_2351"><div id="2F35A141C80C27E83741FB57B6789FAC1BF_2351_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=2F35A141C80C27E83741FB57B6789FAC1BF" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/2F35A141C80C27E83741FB57B6789FAC1BF/preview2.png"></a></div></div>
 
 ---
 
