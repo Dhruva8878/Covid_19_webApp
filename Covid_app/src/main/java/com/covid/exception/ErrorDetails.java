@@ -13,7 +13,10 @@ import lombok.NoArgsConstructor;
 public class ErrorDetails {
 	
 	private LocalDateTime localDateTime;
+	
 	private String message;
+	
 	private String details;
+	
 
 }

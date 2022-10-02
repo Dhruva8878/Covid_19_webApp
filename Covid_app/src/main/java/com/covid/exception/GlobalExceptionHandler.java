@@ -19,6 +19,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 
 	}
+	
+	
 	@ExceptionHandler(LoginException.class)
 	public ResponseEntity<ErrorDetails> loginExceptionHandler(LoginException e, WebRequest req) {
 		
@@ -27,6 +29,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(LogoutException.class)
 	public ResponseEntity<ErrorDetails> logoutExceptionHandler(LogoutException e, WebRequest req) {
 		
@@ -35,6 +39,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(AppointmentExcepation.class)
 	public ResponseEntity<ErrorDetails> appointmentExceptionHandler(AppointmentExcepation e, WebRequest req) {
 		
@@ -43,6 +49,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(AppointmentNotFoundExecpation.class)
 	public ResponseEntity<ErrorDetails> appointmentNotFoundExceptionHandler(AppointmentNotFoundExecpation e, WebRequest req) {
 		
@@ -51,6 +59,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(IdCardNotFoundException.class)
 	public ResponseEntity<ErrorDetails> idCardNotFoundExceptionHandler(IdCardNotFoundException e, WebRequest req) {
 		
@@ -59,14 +69,19 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(MemberNotFoundException.class)
 	public ResponseEntity<ErrorDetails> memeberNotFoundExceptionHandler(MemberNotFoundException e, WebRequest req) {
 		
 		ErrorDetails err = new ErrorDetails(LocalDateTime.now(), e.getMessage(), req.getDescription(false));
 		
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
+	
 		
 	}
+	
+	
 	@ExceptionHandler(VaccineCenterException.class)
 	public ResponseEntity<ErrorDetails> vaccineCenterExceptionHandler(VaccineCenterException e, WebRequest req) {
 		
@@ -75,6 +90,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(VaccineCenterNotFoundException.class)
 	public ResponseEntity<ErrorDetails> vaccineCenterNotFoundExceptionHandler(VaccineCenterNotFoundException e, WebRequest req) {
 		
@@ -83,6 +100,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(VaccineInventoryNotFoundException.class)
 	public ResponseEntity<ErrorDetails> vaccineInventoryNotFoundExceptionHandler(VaccineInventoryNotFoundException e, WebRequest req) {
 		
@@ -91,6 +110,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(VaccineNotFoundException.class)
 	public ResponseEntity<ErrorDetails> vaccineNotFoundExceptionHandler(VaccineNotFoundException e, WebRequest req) {
 		
@@ -116,6 +137,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<ErrorDetails>(err,HttpStatus.BAD_REQUEST);
 		
 	}
+	
+	
 	@ExceptionHandler(IdCardException.class)
 	public ResponseEntity<ErrorDetails> idCardExceptionHandler(IdCardException e, WebRequest req) {
 		
