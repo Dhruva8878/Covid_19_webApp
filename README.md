@@ -102,7 +102,7 @@
  
 ### E-R Diagram Of Covid-19 Application
 ---
-<img src="https://github.com/shivamgarg796/Spring-work/blob/master/Images/Er-Diagram.jpeg?raw=true" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/Dhruva8878/Java_project/blob/main/Covid-19%20App%20Diagram.png">
 
 ---
 
