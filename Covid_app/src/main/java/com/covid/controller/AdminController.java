@@ -100,9 +100,9 @@ public class AdminController {
 
 	@GetMapping("/vaccine_inventory/date/{date}")
 	public ResponseEntity<List<VaccineInventory>> getVaccineInventoryByDate(
-			@PathVariable("date") @DateTimeFormat(pattern = "dd-MM-yyyy") LocalDate date,@RequestParam String key) {
+			@PathVariable("date") @DateTimeFormat(pattern = "dd-MM-yyyy") LocalDate date_,@RequestParam String key) {
 
-		return new ResponseEntity<List<VaccineInventory>>(vaccineInvService.getVaccineInventoryByDate(date,key),
+		return new ResponseEntity<List<VaccineInventory>>(vaccineInvService.getVaccineInventoryByDate(date_,key),
 				HttpStatus.FOUND);
 	}
 
