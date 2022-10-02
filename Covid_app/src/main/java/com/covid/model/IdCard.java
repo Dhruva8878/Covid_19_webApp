@@ -26,9 +26,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class IdCard {
-
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
 	
 	@NotNull(message = "Member name can not be null")

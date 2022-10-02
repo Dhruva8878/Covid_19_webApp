@@ -26,7 +26,6 @@ import lombok.NoArgsConstructor;
 public class VaccineRegistration {
 
 	@Id
-//	@NotBlank(message = "Mobile Number is Mandatory")
 	@Size(max=10,message="Moblie Number length should be 10!")
 	@Pattern(regexp = "^[6-9][0-9]{9}$",message="Mobile No is Invalid!")
 	private String mobileno;

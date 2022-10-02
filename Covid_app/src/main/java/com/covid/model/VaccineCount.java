@@ -20,6 +20,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class VaccineCount {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer vaccineCountId;

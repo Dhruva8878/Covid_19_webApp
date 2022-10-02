@@ -53,8 +53,8 @@ public class VaccinationCenter {
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "vaccinationCenter")
 	private List<Appointment> appointments;
 
-	@ManyToOne(cascade = CascadeType.ALL)
 	@JsonIgnore
+	@ManyToOne(cascade = CascadeType.ALL)
 	private VaccineInventory vaccineInventory;
 
 }

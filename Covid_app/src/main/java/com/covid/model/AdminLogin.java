@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 public class AdminLogin {
+	
 	@NotNull(message = "Mobile No is required")
 	private String mobileNo;
 	

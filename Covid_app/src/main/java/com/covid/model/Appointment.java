@@ -44,7 +44,7 @@ public class Appointment {
 
 	private boolean bookigStatus;
 
-	Slot slot;
+	public Slot slot;
 
 	@JsonIgnore
 	@ManyToOne(cascade = CascadeType.ALL)

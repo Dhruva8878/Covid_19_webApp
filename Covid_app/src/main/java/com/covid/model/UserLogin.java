@@ -6,6 +6,7 @@ import lombok.Data;
 
 @Data
 public class UserLogin {
+	
 	@NotNull(message = "Mobile is required")
 	private String mobileNo;
 	

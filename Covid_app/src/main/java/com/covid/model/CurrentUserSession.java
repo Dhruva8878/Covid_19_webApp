@@ -18,6 +18,7 @@ import lombok.ToString;
 @Data
 @ToString
 public class CurrentUserSession {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;

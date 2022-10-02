@@ -43,6 +43,7 @@ public class Member {
 	private List<Appointment> appointments = new ArrayList<Appointment>();
 
 	private boolean dose1Status;
+	
 	private boolean dose2Status;
 
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")

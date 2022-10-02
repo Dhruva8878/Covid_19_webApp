@@ -25,6 +25,7 @@ import lombok.ToString;
 @ToString
 public class Vaccine {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer vaccineid;
