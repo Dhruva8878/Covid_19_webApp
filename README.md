@@ -16,6 +16,7 @@
 
 ## Modules
 
+* SignUp Module
 * Login, Logout Module
 * User Module
 * Admin Module
